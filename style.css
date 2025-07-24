@@ -60,7 +60,42 @@ header .flex {
 
 /* inicio */
 
+
+/* Destaque */
 .test img {
     height: 500px;
     width: 1351px;
 }
+
+.destaque {
+    padding: 40px 4%;
+}
+
+.destaque .destaque-h2 h2 {
+    text-align: center;
+    padding: 40px;
+    color: #914822;
+}
+
+.destaque .flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.destaque .parto { 
+    border-radius: 5px;
+}
+
+.destaque .parto .img-parto img {
+    width: 150px;
+    border-radius: 300px;
+    border:  2px solid #914822;
+}
+
+/* Destaque */
+
+/* eliane */
+
+/* eliane */
