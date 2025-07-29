@@ -199,3 +199,42 @@ header .flex {
 }
 
 /* Pre-dois */
+
+/* ajuda */
+
+.ajuda {
+    padding: 40px 4%;
+}
+
+.ajuda .h2 h2 {
+    text-align: center;
+    color: #914822;
+    padding-bottom: 10px;
+}
+
+.ajuda .p p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+
+.ajuda-button a .btn {
+    width: 150px;
+    height: 30px;
+    background-color: #4FCE5D;
+    color: white;
+    border: none;
+    border-radius: 10px;
+   
+}
+
+
+.ajuda .ajuda-img img {
+    width: 600px;
+    position: absolute;
+    left: 27%;
+    border-radius: 20px;
+}
+
+/* ajuda */
