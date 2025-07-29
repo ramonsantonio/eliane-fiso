@@ -123,6 +123,79 @@ header .flex {
 }
 /* Destaque */
 
-/* eliane */
+/* Pre-um */
 
-/* eliane */
+.pre-um {
+    padding: 40px 4%;
+    background-color: #F38321;
+    
+}
+
+.pre-um .flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pre-um .script .h2 h2 {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.pre-um .script .p p {
+    color: white;
+    padding-bottom: 20px;
+}
+
+
+.pre-um .script-img img {
+    width: 600px;
+    border-radius: 20px;
+    height: 400px;
+}
+
+.pre-button a .button {
+    width: 150px;
+    height: 30px;
+    background-color: #4FCE5D;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.pre-button a .button:hover {
+    background-color: white;
+    color: #F38321;
+    cursor: pointer;
+}
+
+/* Pre-dois */
+
+.pre-dois {
+    padding: 40px 4%;
+    background-color: #F38321;
+    
+}
+
+.pre-dois .script-img img {
+    width: 600px;
+    border-radius: 20px;
+    height: 400px;
+}
+
+
+.pre-dois .flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pre-dois .script .h2 h2 {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.pre-dois .script .p p {
+    color: white;
+    padding-bottom: 20px;
+}
+
+/* Pre-dois */
