@@ -239,3 +239,44 @@ header .flex {
 }
 
 /* ajuda */
+
+/* rodape */
+
+.rodape {
+    padding: 40px 4%;
+}
+
+.rodape .flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape-img img {
+    width: 200px;
+}
+
+.rodape-h2 {
+    color: #914822;
+}
+
+.rodape-menu ul li a, .rodape-politica ul li a {
+    color: #914822;
+    text-decoration: none;
+    
+}
+
+.rodape-menu ul li, .rodape-politica ul li   {
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.direitos {
+    text-align: center;
+}
+/* rodape */
