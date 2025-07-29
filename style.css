@@ -204,6 +204,7 @@ header .flex {
 
 .ajuda {
     padding: 40px 4%;
+    text-align: center;
 }
 
 .ajuda .h2 h2 {
@@ -217,7 +218,9 @@ header .flex {
     padding-bottom: 20px;
 }
 
-
+.ajuda-button {
+    padding-bottom: 30px;
+}
 
 .ajuda-button a .btn {
     width: 150px;
@@ -232,8 +235,6 @@ header .flex {
 
 .ajuda .ajuda-img img {
     width: 600px;
-    position: absolute;
-    left: 27%;
     border-radius: 20px;
 }
 
