@@ -148,9 +148,9 @@ header .flex {
 
 
 .pre-um .script-img img {
-    width: 600px;
+    width: 450px;
     border-radius: 20px;
-    height: 400px;
+    height: 300px;
 }
 
 .pre-button a .button {
@@ -177,9 +177,9 @@ header .flex {
 }
 
 .pre-dois .script-img img {
-    width: 600px;
+    width: 450px;
     border-radius: 20px;
-    height: 400px;
+    height: 300px;
 }
 
 
@@ -244,6 +244,7 @@ header .flex {
 
 .rodape {
     padding: 40px 4%;
+    background-color: wheat;
 }
 
 .rodape .flex {
@@ -279,4 +280,81 @@ hr {
 .direitos {
     text-align: center;
 }
+
+.direitos a {
+    color: black;
+}
 /* rodape */
+
+
+@media (max-width: 575px) {
+    .menu {
+        display: none;
+    }
+
+    .test img {
+        width: 100%;
+        height: 180px;
+    }
+
+    .destaque .flex {
+        flex-direction: column-reverse;
+    }
+
+    .pre-um .flex {
+        flex-direction: column-reverse;
+    }
+
+    .pre-um .script-img img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .pre-um .h2 h2 {
+        text-align: center;
+        font-size: 1.6rem;
+        margin-top: 20px;
+    }
+
+    .pre-um .pre-button  {
+        text-align: center;
+    }
+
+    .pre-dois .flex {
+        flex-direction: column;
+    }
+
+    .pre-dois .script-img img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .pre-dois .h2 h2 {
+        text-align: center;
+        font-size: 1.6rem;
+        margin-top: 20px;
+    }
+
+    .pre-dois .pre-button  {
+        text-align: center;
+    }
+
+    .ajuda .ajuda-img img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .rodape .flex {
+        display: block;
+        text-align: center;
+        
+    }
+
+    .rodape-img {
+        margin-bottom: 45px;
+    }
+
+    .rodape-politica {
+        margin-top: 45px;
+    }
+}
