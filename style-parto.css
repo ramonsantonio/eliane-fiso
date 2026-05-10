@@ -102,7 +102,7 @@ header .flex {
 /*cafe*/
 
 .cafe {
-    padding: 40px 4px;
+    padding: 80px 4px;
     background-color: #F38321;
     color: white;
 }
@@ -117,10 +117,41 @@ header .flex {
 }
 
 .cafe-img img {
-    width: 350px;
-    height: 250px;
+    width: 450px;
+    height: 350px;
     border-radius: 15px;
 }
+
+/*red*/
+.red {
+    padding: 80px 4px;
+}
+
+.red-titulo {
+    text-align: center;
+    color: #914822;
+    margin-bottom: 20px;
+}
+
+.red .flex {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.red-sub {
+    margin-bottom: 20px;
+}
+
+.red-img {
+    text-align: center;
+}
+
+.red-img img {
+    border-radius: 15px;
+    width: 450px;
+    height: 350px;
+}
+
 
 
 /* rodape */
@@ -205,6 +236,20 @@ hr {
     .cafe-img  {
         text-align: center;
         margin-top: 30px;
+    }
+
+    .cafe-img img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .red .flex {
+        flex-direction: column-reverse;
+    }
+
+    .red-img img {
+        width: 350px;
+        height: 250px;
     }
 
     .rodape .flex {
