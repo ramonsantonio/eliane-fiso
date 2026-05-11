@@ -1,0 +1,309 @@
+@charset "UTF-8";
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.flex {
+    display: flex;
+}
+
+/* inicio */
+
+header {
+    padding: 40px 4%;
+}
+
+header .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-header img {
+    width: 100px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline;
+    
+}
+
+.menu ul li a {
+    text-decoration: none;
+    margin: 20px;
+    color: #914822;
+}
+
+.menu ul li a:hover {
+    font-size: large;
+    cursor: pointer;
+}
+
+.botao-header a .button{
+    background-color: #4FCE5D;
+    color: white;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+.botao-header a .button:hover {
+    cursor: pointer;
+     background-color: #F38321;
+}
+
+.test img {
+    height: 500px;
+    width: 100%;
+}
+
+.test-smart img  {
+    display: none;
+}
+
+
+/* PADRÃO */
+
+
+/*cuide*/   
+
+.cuide {
+    padding: 80px 4px;
+}
+
+.cuide .flex {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cuide-titulo {
+    color: #914822;
+    margin-bottom: 20px;
+}
+
+.cuide-sub {
+    margin-bottom: 20px;
+}
+
+
+.cuide-img img {
+    width: 450px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+
+/*dor*/
+
+.dor {
+    padding: 80px 4px;
+    background-color: #F38321;
+    color: white;
+}
+
+.dor .flex {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dor-img img {
+    width: 450px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.dor-titulo {
+    margin-bottom: 20px;
+}
+
+.dor .botao-header {
+    margin-top: 20px;
+}
+
+
+/*vida*/
+
+.vida {
+    padding: 80px 4px;
+}
+
+.vida .flex {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.vida-titulo {
+    color: #914822;
+    margin-bottom: 20px;
+}
+
+.vida-sub {
+    margin-bottom: 20px;
+}
+
+.vida-img img {
+    width: 450px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+
+/* rodape */
+
+.rodape {
+    padding: 40px 4%;
+    background-color: wheat;
+}
+
+.rodape .flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape-img img {
+    width: 200px;
+}
+
+.rodape-h2 {
+    color: #914822;
+}
+
+.rodape-menu ul li a, .rodape-politica ul li a {
+    color: #914822;
+    text-decoration: none;
+    
+}
+
+.rodape-menu ul li, .rodape-politica ul li   {
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.direitos {
+    text-align: center;
+}
+
+.direitos a {
+    color: black;
+}
+/* rodape */
+
+
+@media (max-width: 575px) {
+    .menu {
+        display: none;
+    }
+
+    .test img {
+        display: none;
+    }
+
+    .test-smart img  {
+        display: block;
+        width: 100%;
+    }
+
+    .cuide .flex {
+        display: block;
+    }
+ 
+    .cuide-titulo {
+        text-align: center;
+    }
+
+    .cuide-sub {
+        text-align: center;
+        font-size: .8rem;
+    }
+
+    .cuide .botao-header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .cuide-img {
+        text-align: center;
+    }
+
+    .cuide-img img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .dor .flex {
+        flex-direction: column-reverse;
+    } 
+
+    .dor-titulo {
+        text-align: center;
+    }
+
+    .dor-sub {
+        text-align: center;
+        font-size: .8rem;
+    }
+
+    .dor .botao-header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .dor-img img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .vida .flex {
+        display: block;
+    }
+
+    .vida-titulo {
+        text-align: center;
+    }
+
+    .vida-sub {
+        text-align: center;
+        font-size: .8rem;
+    }
+
+    .vida .botao-header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .vida-img {
+        text-align: center;
+    }
+
+    .vida-img img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .rodape .flex {
+        display: block;
+        text-align: center;
+        
+    }
+
+    .rodape-img {
+        margin-bottom: 45px;
+    }
+
+    .rodape-politica {
+        margin-top: 45px;
+    }
+}
