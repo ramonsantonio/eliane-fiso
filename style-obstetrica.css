@@ -61,7 +61,11 @@ header .flex {
 
 .test img {
     height: 500px;
-    width: 1351px;
+    width: 100%;
+}
+
+.test-smart img {
+    display: none;
 }
 
 /*PADRÃO*/
@@ -203,8 +207,12 @@ hr {
     }
 
     .test img {
+        display: none;
+    }
+
+    .test-smart img {
+        display: block;
         width: 100%;
-        height: 180px;
     }
 
     .natural .flex {

@@ -62,8 +62,15 @@ header .flex {
      background-color: #F38321;
 }
 
+.test img {
+    width: 100%;
+}
 
+.test-smart img {
+    display: none;
+}
 
+/*PADRÃO*/
 
 /* parto-script */
 
@@ -209,10 +216,14 @@ hr {
     }
 
     .test img {
-        width: 100%;
-        height: 180px;
+        display: none;
     }
     
+    .test-smart img {
+        display: block;
+        width: 100%;
+    }
+
     .parto-script .flex {
         display: block;
     }
