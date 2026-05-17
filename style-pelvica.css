@@ -69,6 +69,61 @@ header .flex {
 }
 
 
+/*menu-mobile*/
+
+.menu-mobile {
+    background-color: wheat;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    width: 0;
+    transition: .5s;
+}
+
+.menu-mobile.button-abrir {
+    width: 100%;
+}
+
+.menu-mobile ul {
+    text-align: right;
+}
+
+.menu-mobile ul li {
+    list-style-type: none;
+    padding: 30px 4%;
+}
+
+.menu-mobile ul li a {
+    text-decoration: none;
+    margin: 20px;
+    color: #914822;
+    
+}
+
+.button-abrir {
+    font-size: 20px;
+    color: #914822;
+}
+
+.button-abrir:hover {
+    cursor: pointer;
+}
+
+.close {
+    color: #914822;
+    padding: 20px 4%;
+}
+
+.close:hover {
+    cursor: pointer;
+}
+
+header .botao-header {
+    display: none;
+}
+
 /* PADRÃO */
 
 

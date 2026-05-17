@@ -78,6 +78,11 @@ header .flex {
     right: 0;
     z-index: 9999;
     width: 0;
+    transition: .5s;
+}
+
+.menu-mobile.button-abrir {
+    width: 100%;
 }
 
 .menu-mobile ul {
@@ -97,7 +102,7 @@ header .flex {
 }
 
 .button-abrir {
-    font-size: 34px;
+    font-size: 20px;
     color: #914822;
 }
 
