@@ -266,6 +266,10 @@ hr {
         display: none;
     }
 
+    .button-abrir {
+        display: block;
+    }
+    
     .test img {
         display: none;
     }
