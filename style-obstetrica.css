@@ -61,6 +61,10 @@ header .flex {
 
 /*menu-mobile*/
 
+.button-abrir {
+    display: none;
+}
+
 .menu-mobile {
     background-color: wheat;
     height: 100vh;

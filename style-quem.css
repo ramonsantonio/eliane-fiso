@@ -70,6 +70,10 @@ header .flex {
 
 /*menu-mobile*/
 
+.button-abrir {
+    display: none;
+}
+
 .menu-mobile {
     background-color: wheat;
     height: 100vh;
@@ -191,6 +195,10 @@ hr {
 @media (max-width: 575px) {
     .menu {
         display: none;
+    }
+
+    .button-abrir {
+        display: block;
     }
 
     .test img {
